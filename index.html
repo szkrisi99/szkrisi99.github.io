@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>MacroKlinika</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="general.css" />
+	</head>
+
+	<body>
+		<nav class="">
+			<div class="container">
+				<div
+					class="navbar navbar-expand-lg header-top-top pb-0 justify-content-between my-auto"
+					style="align-items: center"
+				>
+					<div
+						class="logo nabar-brand"
+						itemscope
+						itemtype="http://schema.org/Organization"
+					>
+						<a href="index.html">
+							<img
+								src="images/TL_Macroklinika_logo_Horizontal.png"
+								itemprop="logo"
+								alt="Tritonlife"
+							/>
+						</a>
+						<meta content="TritonLife" itemprop="name" />
+					</div>
+					<div class="p-2 pt-3" style="font-size: 12px">
+						<a href="tel:+36706598888" class="nav-link fw-bold"
+							>IDŐPONTFOGLALÁS: +36 70 500 1818</a
+						>
+						<p>HÉTKÖZNAP: 08<sup>00</sup>-20<sup>00</sup></p>
+					</div>
+					<div
+						class="p-2 pt-3 ml-auto my-auto"
+						style="font-size: 12px"
+					>
+						<a href="tel:+36706598888" class="nav-link fw-bold"
+							>RADIOLÓGIAI ELŐJEGYZÉS +36 70 500 2391</a
+						>
+						<p>
+							H: 08<sup>00</sup>-18<sup>00</sup>, K-SZ-CS:
+							08<sup>00</sup>-20<sup>00</sup>, P:
+							08<sup>00</sup>-16<sup>00</sup>
+						</p>
+					</div>
+					<div class="p-2 ml-auto">
+						<button type="button" class="btn btnMain fw-bold">
+							Időpontfoglalás
+						</button>
+					</div>
+				</div>
+
+				<div class="navbar navbar-expand-lg header-top-bottom p-0">
+					<div
+						class="collapse navbar-collapse mainMenu p-0"
+						id="collapsibleNav"
+					>
+						<ul class="navbar-nav w-100 justify-content-between">
+							<li
+								class="nav-item dropdown d-lg-none lang-selector"
+							>
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									id="langDropdown"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-haspopup="true"
+									aria-expanded="false"
+								>
+									<img
+										src="https://tritonlife.hu/images/flags/hu.png"
+										alt="HUN"
+										class="flag"
+									/>
+									hu
+								</a>
+								<div
+									class="dropdown-menu"
+									aria-labelledby="langDropdown"
+								></div>
+							</li>
+							<li class="nav-item dropdown">
+								<button
+									type="button"
+									class="btn btn-borderless"
+								>
+									<a href="szolgaltatasok.html"
+										>Szolgáltatásaink
+									</a>
+								</button>
+								<button
+									type="button"
+									class="btn btn-borderless dropdown-toggle dropdown-toggle-split"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									<span class="visually-hidden"
+										>Szolgáltatásaink</span
+									>
+								</button>
+
+								<div
+									class="dropdown-menu"
+									aria-labelledby="navbarDropdown-1"
+								>
+									<a
+										class="dropdown-item"
+										href="https://tritonlife.hu/szolgaltatasaink"
+										>Radiológiai vizsgálatok</a
+									>
+									<a
+										class="dropdown-item"
+										href="https://tritonlife.hu/vizsgalati-ajanlok"
+										>Felnőtt vizsgálatok</a
+									>
+									<a
+										class="dropdown-item"
+										href="https://tritonlife.hu/webshop"
+										>Gyermek vizsgálatok</a
+									>
+									<a
+										class="dropdown-item"
+										href="https://tritonlife.hu/leiras/osszefogas-az-egeszsegert"
+										>Labor vizsgálatok</a
+									>
+									<a
+										class="dropdown-item"
+										href="https://tritonlife.hu/leiras/osszefogas-az-egeszsegert"
+										>Babamozi</a
+									>
+									<a
+										class="dropdown-item"
+										href="https://tritonlife.hu/leiras/osszefogas-az-egeszsegert"
+										>Szépészet, orvos-esztétika</a
+									>
+									<a
+										class="dropdown-item"
+										href="https://tritonlife.hu/leiras/osszefogas-az-egeszsegert"
+										>E-Recept</a
+									>
+									<a
+										class="dropdown-item"
+										href="https://tritonlife.hu/leiras/osszefogas-az-egeszsegert"
+										>Genetikai tesztek</a
+									>
+									<a
+										class="dropdown-item"
+										href="https://tritonlife.hu/leiras/osszefogas-az-egeszsegert"
+										>OCT vizsgálatok</a
+									>
+								</div>
+							</li>
+							<li class="nav-item">
+								<a
+									class="nav-link"
+									href="https://tritonlife.hu/araink"
+								>
+									Árak
+								</a>
+							</li>
+							<li class="nav-item dropdown">
+								<button
+									type="button"
+									class="btn btn-borderless"
+								>
+									Csomagajánlataink
+								</button>
+								<button
+									type="button"
+									class="btn btn-borderless dropdown-toggle dropdown-toggle-split"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									<span class="visually-hidden"
+										>Csomagajánlataink</span
+									>
+								</button>
+								<div
+									class="dropdown-menu"
+									aria-labelledby="navbarDropdown-3"
+								>
+									<a
+										class="dropdown-item"
+										href="https://tritonlife.hu/kiemelt/terhesgondozas"
+										>Várandósgondozási csomagok</a
+									>
+									<a
+										class="dropdown-item"
+										href="https://tritonlife.hu/kiemelt/szulesicsomagok"
+										>Szülés csomagok</a
+									>
+									<a
+										class="dropdown-item"
+										href="https://tritonlife.hu/kiemelt/csecsemogondozas"
+										>Csecsemőgondozási csomagok</a
+									>
+								</div>
+							</li>
+							<li class="nav-item dropdown">
+								<button
+									type="button"
+									class="btn btn-borderless"
+								>
+									Rólunk
+								</button>
+								<button
+									type="button"
+									class="btn btn-borderless dropdown-toggle dropdown-toggle-split"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									<span class="visually-hidden">Rólunk</span>
+								</button>
+								<div
+									class="dropdown-menu"
+									aria-labelledby="navbarDropdown-4"
+								>
+									<a
+										class="dropdown-item"
+										href="https://tritonlife.hu/csapatunk"
+										>Klinikáról</a
+									>
+									<a
+										class="dropdown-item"
+										href="munkatarsak.html"
+										>Munkatársaink</a
+									>
+									<a
+										class="dropdown-item"
+										href="https://tritonlife.hu/magazin"
+										>Hírek</a
+									>
+									<a
+										class="dropdown-item"
+										href="https://tritonlife.hu/leiras/magazin"
+										>Galéria</a
+									>
+								</div>
+							</li>
+							<li class="nav-item">
+								<a
+									class="nav-link"
+									href="https://tritonlife.hu/intezmenyeink"
+								>
+									Elérhetőség
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<div id="sizing-div">
+			<div id="content">
+				<div class="newsSection container mb-5">
+					<h1 class="newsTitle text-center">Hírek</h1>
+
+					<div class="row row-cols-auto">
+						<div class="newsCard col-md">
+							<img src="images/ct.jpg" width="100%" alt="CT" />
+							<div class="newContent">
+								<span class="tag tag-teal">Technológia</span>
+								<h5 class="mt-2">Megújúl a radiológia!</h5>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur
+									adipiscing elit, sed do eiusmod tempor
+									incididunt ut labore et dolore magna aliqua.
+								</p>
+								<button
+									type="button"
+									class="btn btnMore fw-bold"
+								>
+									Tudjon meg többet
+								</button>
+							</div>
+						</div>
+						<div class="newsCard col-md">
+							<img
+								src="images/dietetikai-tanacsadas.jpg"
+								width="100%"
+								alt="CT"
+							/>
+							<div class="newContent">
+								<span class="tag tag-purple">Egészség</span>
+								<h5 class="mt-2">Dietetikus tanácsadás!</h5>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur
+									adipiscing elit, sed do eiusmod tempor
+									incididunt ut labore et dolore magna aliqua.
+								</p>
+								<button
+									type="button"
+									class="btn btnMore fw-bold"
+								>
+									Tudjon meg többet
+								</button>
+							</div>
+						</div>
+						<div class="newsCard col-md">
+							<img
+								src="images/gyermeksebeszet.jpg"
+								width="100%"
+								alt="CT"
+							/>
+							<div class="newContent">
+								<span class="tag tag-pink">Orvosok</span>
+								<h5 class="mt-2">
+									Új orvossal bővül a csapatunk!
+								</h5>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur
+									adipiscing elit, sed do eiusmod tempor
+									incididunt ut labore et dolore magna aliqua.
+								</p>
+								<button
+									type="button"
+									class="btn btnMore fw-bold"
+								>
+									Tudjon meg többet
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="row row-cols-auto">
+						<div class="newsCard col-md">
+							<img src="images/ct.jpg" width="100%" alt="CT" />
+							<div class="newContent">
+								<span class="tag tag-teal">Technológia</span>
+								<h5 class="mt-2">Megújúl a radiológia!</h5>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur
+									adipiscing elit, sed do eiusmod tempor
+									incididunt ut labore et dolore magna aliqua.
+								</p>
+								<button
+									type="button"
+									class="btn btnMore fw-bold"
+								>
+									Tudjon meg többet
+								</button>
+							</div>
+						</div>
+						<div class="newsCard col-md">
+							<img
+								src="images/dietetikai-tanacsadas.jpg"
+								width="100%"
+								alt="CT"
+							/>
+							<div class="newContent">
+								<span class="tag tag-purple">Egészség</span>
+								<h5 class="mt-2">Dietetikus tanácsadás!</h5>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur
+									adipiscing elit, sed do eiusmod tempor
+									incididunt ut labore et dolore magna aliqua.
+								</p>
+								<button
+									type="button"
+									class="btn btnMore fw-bold"
+								>
+									Tudjon meg többet
+								</button>
+							</div>
+						</div>
+						<div class="newsCard col-md">
+							<img
+								src="images/gyermeksebeszet.jpg"
+								width="100%"
+								alt="CT"
+							/>
+							<div class="newContent">
+								<span class="tag tag-pink">Orvosok</span>
+								<h5 class="mt-2">
+									Új orvossal bővül a csapatunk!
+								</h5>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur
+									adipiscing elit, sed do eiusmod tempor
+									incididunt ut labore et dolore magna aliqua.
+								</p>
+								<button
+									type="button"
+									class="btn btnMore fw-bold"
+								>
+									Tudjon meg többet
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="footer d-flex justify-content-center">
+			<div class="container">
+				<div class="row justify-content-center mb-0">
+					<div class="col-md-12 text-center mx-auto">
+						<a
+							href="https://tritonlife.hu"
+							rel="home"
+							itemprop="url"
+						>
+							<img
+								src="images/TL_Macroklinika_logo_Horizontal.png"
+								class="mt-2"
+								itemprop="logo"
+								alt="Tritonlife"
+							/>
+						</a>
+						<div
+							class="d-flex justify-content-between text-center w-25 mx-auto footerLinks"
+						>
+							<a class="" href="#">Nyitvatartás</a>
+							<a class="" href="#">Elérhetőség</a>
+							<a class="" href="#">Időpontfoglalás</a>
+						</div>
+						<div
+							class="d-flex justify-content-between text-center w-20 mx-auto"
+						>
+							<img
+								src="images/facebook.png"
+								alt="facebook"
+								width="30px"
+							/>
+							<img
+								src="images/email.png"
+								alt="email"
+								width="30px"
+							/>
+							<img
+								src="images/instagram.png"
+								alt="instagram"
+								width="30px"
+							/>
+						</div>
+					</div>
+					<div class="row mt-5 mt-0">
+						<div class="col-md-12 text-center">
+							<p class="copyright">
+								&copy;
+								<script>
+									document.write(new Date().getFullYear());
+								</script>
+								Macroklinika | Minden jog fenntartva
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+
+	<script src="jquery-3.7.0.min.js"></script>
+	<script src="popper.min.js"></script>
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+		crossorigin="anonymous"
+	></script>
+</html>
