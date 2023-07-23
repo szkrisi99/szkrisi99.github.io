@@ -1,0 +1,35 @@
+.card-submenu{
+    height: 200px;;
+}
+
+
+.btn-submenu{
+    /*font-weight: bold;*/
+    margin: 5px;
+    border: 1px solid #0086bb;
+    background-color: white;
+    color: #0086bb !important;
+}
+
+.szolg-card{
+    background-color: #fafbfc;
+    margin: 10px;
+    overflow: hidden;
+    padding: 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.selected{
+    color:white !important;
+    background-color: #0086bb;
+}
+
+.selected:hover{
+    color:white !important;
+    background-color: #0086bb;
+}
+
+.szolg-card:hover { transform: scale(1.02); }
