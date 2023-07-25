@@ -11,7 +11,9 @@
     color: #0086bb !important;
 }
 
-.szolg-card{
+.service-card{
+    min-width: 300px;
+    max-width: 370px;
     background-color: #fafbfc;
     margin: 10px;
     overflow: hidden;
@@ -32,4 +34,4 @@
     background-color: #0086bb;
 }
 
-.szolg-card:hover { transform: scale(1.02); }
+.service-card:hover { transform: scale(1.02); }
