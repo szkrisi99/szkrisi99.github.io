@@ -8,7 +8,7 @@ $(".btn-submenu").on("click", function (e) {
 
 		var servicegroup = $(this).attr("data-service-group");
 		$(".service-card").hide();
-		$(".service-card[data-service-group='" + servicegroup + "']").show();
+		$(".service-card[data-service-group*='" + servicegroup + "']").show();
 		console.log(servicegroup);
 	}
 });

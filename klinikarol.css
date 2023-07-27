@@ -1,0 +1,22 @@
+#sizing-div-klinika {
+    max-width: 1000px;
+    margin: auto;
+    /* min-height: 80vh; */
+}
+
+.color-p{
+    width: 100vw;
+    /* background: rgb(238,242,243);
+    background: linear-gradient(90deg, rgba(238,242,243,1) 0%, rgba(115,202,233,1) 38%, rgba(106,219,208,1) 100%); */
+    background: rgb(238,242,243);
+background: linear-gradient(90deg, rgba(238,242,243,0.5075280112044818) 0%, rgba(115,202,233,0.5327380952380952) 38%, rgba(66,180,144,0.5271358543417367) 100%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #102851;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+.color-p p {
+    max-width: 1000px;
+    margin:auto;
+}

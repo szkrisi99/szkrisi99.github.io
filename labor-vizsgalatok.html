@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>MacroKlinika</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="main.css" />
+		<link rel="stylesheet" href="araink.css" />
+	</head>
+
+	<body>
+		<header-component></header-component>
+		<div id="sizing-div">
+			<div class="content mt-5">
+				<h1 class="newsTitle text-center">Labor vizsgálatok</h1>
+
+				<div class="accordion" id="accordionExample">
+					<accordion-item-component
+						data-id="Gyógyszerszint"
+					></accordion-item-component>
+					<accordion-item-component
+						data-id="Haematológia"
+					></accordion-item-component>
+					<accordion-item-component
+						data-id="Véralvadás"
+					></accordion-item-component>
+					<accordion-item-component
+						data-id="Vizelet minőségi vizsgálat"
+					></accordion-item-component>
+					<accordion-item-component
+						data-id="Vizelet vizsgálat (egyszeri vizeletből)"
+					></accordion-item-component>
+					<accordion-item-component
+						data-id="Vizelet vizsgálat (gyűjtött vizeletből)"
+					></accordion-item-component>
+					<accordion-item-component
+						data-id="Széklet vizsgálat"
+					></accordion-item-component>
+					<accordion-item-component
+						data-id="Pajzsmirigy vizsgálatok"
+					></accordion-item-component>
+					<accordion-item-component
+						data-id="Egyéb hormonok"
+					></accordion-item-component>
+					<accordion-item-component
+						data-id="Magzati rendellenességek szűrése"
+					></accordion-item-component>
+					<accordion-item-component
+						data-id="Csontmarker"
+					></accordion-item-component>
+					<accordion-item-component
+						data-id="Tumormarkerek"
+					></accordion-item-component>
+					<accordion-item-component
+						data-id="Allergia panelek"
+					></accordion-item-component>
+					<accordion-item-component
+						data-id="Autoimmunitás vizsgálata"
+					></accordion-item-component>
+					<accordion-item-component
+						data-id="Immunológiai vizsgálatok"
+					></accordion-item-component>
+					<accordion-item-component
+						data-id="Mikrobiológiai vizsgálatok"
+					></accordion-item-component>
+					<accordion-item-component
+						data-id="Szerológia"
+					></accordion-item-component>
+					<accordion-item-component
+						data-id="Egyéb vizsgálatok"
+					></accordion-item-component>
+					<accordion-item-component
+						data-id="Laborcsomagok"
+					></accordion-item-component>
+					<accordion-item-component
+						data-id="PCR teszt"
+					></accordion-item-component>
+					<accordion-item-component
+						data-id="Genetikai vizsgálatok"
+					></accordion-item-component>
+				</div>
+			</div>
+		</div>
+
+		<footer-component></footer-component>
+	</body>
+	<script src="components.js"></script>
+	<script src="jquery-3.7.0.min.js"></script>
+	<script src="popper.min.js"></script>
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+		crossorigin="anonymous"
+	></script>
+</html>
